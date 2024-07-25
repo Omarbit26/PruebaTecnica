@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, ParseIntPipe, Post, Put, Query } from '@nestjs/common';
-import { CreateArticleDTO } from 'src/dtos/articles.dto';
+import { CreateArticleDTO } from '../../dtos/articles.dto';
 import { ArticlesService } from './articles.service';
 
 

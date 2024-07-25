@@ -1,7 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { copyFileSync } from 'fs';
-import { CreateArticleDTO, UpdateArticleDTO } from 'src/dtos/articles.dto';
-import { Article } from 'src/entitities/Article';
+import { CreateArticleDTO, UpdateArticleDTO } from '../../dtos/articles.dto';
+import { Article } from '../../entitities/Article';
 
 let articleDB:Article[] = [
     {
